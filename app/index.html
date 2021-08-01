@@ -4,3 +4,173 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
+<div class="assignment">
+    <header class="header d-flex justify-content-between mb-5">
+        <div class="d-flex">
+            <h2 class="header-subTitle me-5">Assignment</h2>
+            <!-- Button trigger modal -->
+            <a href="#" class="header-modal d-flex align-items-center text-dark">
+                All Courses
+                <span class="material-icons text-success ms-2">
+                    expand_more
+                </span>
+            </a>
+        </div>
+
+        <div>
+            <a href="#">
+                <span class="header-notifications material-icons me-4">
+                    notifications_active
+                </span>
+            </a>
+
+            <a href="#">
+                <span class="header-search material-icons">
+                    search
+                </span>
+            </a>
+        </div>
+    </header>
+
+    <section class="assignment-category d-flex justify-content-between mb-2">
+        <a href="#" class="d-flex text-dark fw-bold">
+            All (4)
+            <span class="material-icons text-success ms-2">
+                expand_more
+            </span>
+        </a>
+        <p class="assignment-comment">2 comments</p>
+    </section>
+
+    <section class="d-flex justify-content-between mb-3">
+        <ul class="assignment-info">
+            <li class="assignment-item px-2 py-2">
+                <div class="d-flex justify-content-between mb-1">
+                    <p class="assignment-text">Chapter Assignment 2</p>
+                    <p class="assignment-text">4 hrs ago</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p class="assignment-title fw-bold">Please check this file…</p>
+                    <p class="assignment-text">Emily Wang</p>
+                </div>
+            </li>
+
+            <li class="assignment-item px-2 py-2">
+                <div class="d-flex justify-content-between mb-1">
+                    <p class="assignment-text">Chapter Assignment 2</p>
+                    <p class="assignment-text">4 hrs ago</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p class="assignment-title fw-bold">My Homework</p>
+                    <p class="assignment-text">Emily Wang</p>
+                </div>
+            </li>
+            <li class="assignment-item px-2 py-2">
+                <div class="d-flex justify-content-between mb-1">
+                    <p class="assignment-text">Chapter Assignment 2</p>
+                    <p class="assignment-text">4 hrs ago</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p class="assignment-title fw-bold">Have a problem with this…</p>
+                    <p class="assignment-text">Emily Wang</p>
+                </div>
+            </li>
+            <li class="assignment-item px-2 py-2">
+                <div class="d-flex justify-content-between mb-1">
+                    <p class="assignment-text">Chapter Assignment 2</p>
+                    <p class="assignment-text">4 hrs ago</p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <p class="assignment-title fw-bold">Did I do it right?</p>
+                    <p class="assignment-text">Emily Wang</p>
+                </div>
+            </li>
+        </ul>
+        <div class="assignment-detail">
+            <div class="assignment-detailTitle d-flex justify-content-between py-2 px-3">
+                <div>
+                    <p class="assignment-text">Chapter Assignment 2 / HTML&CSS</p>
+                    <h3 class="fw-bold">Please check this file for me, thanks!</h3>
+                </div>
+                <span class="material-icons">
+                    more_vert
+                </span>
+            </div>
+            <ul>
+                <li class="d-flex assignment-detailItem py-3 ps-3 pe-4">
+                    <div class="assignment-avatar-woman me-2"></div>
+                    <div class="assignment-personalNote">
+                        <p class="fw-bold">Emily Wang</p>
+                        <p class="assignment-text mb-3">10:38 AM (4 hours ago)</p>
+                        <p class="mb-3">
+                            Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in
+                            the
+                            following code the height of the <span class="text-success">div</span> is bigger than the
+                            height of the <span class="text-success">img</span> ?
+                            There
+                            is a gap below the image, but it doesn’t seems to be a padding/margin. <br />
+                            What is the gap or extra
+                            space below image?
+                        </p>
+                        <a href="#" class="fw-bold text-dark d-flex px-3 py-2 assignment-file">
+                            <span class="material-icons me-2">
+                                attach_file
+                            </span>
+                            HW-2-David.zip
+                        </a>
+                    </div>
+                </li>
+                <li class="assignment-detailItem py-3 ps-3 pe-4">
+                    <div class="d-flex">
+                        <div class="assignment-avatar-man me-2"></div>
+                        <div class="assignment-personalNote">
+                            <div class="d-flex justify-content-between mb-3">
+                                <div>
+                                    <p class="fw-bold">Andy Chen (You)</p>
+                                    <p class="assignment-text">13:24 AM (1 hours ago)</p>
+                                </div>
+                                <div>
+                                    <span class="material-icons-outlined me-4">
+                                        grade
+                                    </span>
+                                    <span class="material-icons">
+                                        edit
+                                    </span>
+                                </div>
+                            </div>
+                            <p>
+                                Hi David, by default, an image is rendered inline, like a letter so it sits on the same
+                                line
+                                that a, b, c and d sit on. There is space below that line for the descenders you find on
+                                letters
+                                like g, j, p and q. <br /><br />
+                                You can: <br /><br />
+                                • adjust the <span class="text-success">vertical-align</span> of the image to position
+                                it elsewhere
+                                (e.g. the <span class="text-success">middle</span> ) or <br />
+                                • change the <span class="text-success">display</span> so it isn’t inline.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="d-flex justify-content-end align-items-center
+    ">
+        <div class="assignment-arrowLeftAndRight">
+            <span class="material-icons-outlined me-4">
+                chevron_left
+            </span>
+            <span class="material-icons-outlined">
+                keyboard_arrow_right
+            </span>
+        </div>
+        <div>
+            <a href="#" class="assignment-button me-3 py-2 text-success">Mark as read</a>
+            <a href="#" class="assignment-button py-2 text-white bg-success">Reply</a>
+        </div>
+    </section>
+
+</div>

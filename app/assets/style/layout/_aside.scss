@@ -1,18 +1,35 @@
 .container {
+    max-width: 1280px;
     .sidebarMenu {
-        // &-link {
-        // }
-
-        // &-list {
-        // }
-        // &-item {
-        // }
+        background-color: #f8f9fa;
+        width: 20%;
+        &-title {
+            padding: 32px;
+        }
         &-link {
+            padding-left: 32px;
             color: #212529;
             font-weight: bold;
+            &:hover {
+                color: #198754;
+                border-left: 4px solid #198754;
+            }
         }
-
-        // &-avatar {
-        // }
+        &-info {
+            padding-left: 32px;
+            padding-bottom: 32px;
+        }
+        &-avatar {
+            background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg);
+            background-position: center;
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        &-mail {
+            font-size: 14px;
+            line-height: 24px;
+        }
     }
 }

@@ -1,0 +1,40 @@
+.admin {
+    width: 80%;
+    padding: 32px;
+    .header {
+        &-subTitle {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        &-notifications {
+            color: black;
+        }
+        &-search {
+            color: black;
+        }
+    }
+
+    table {
+        margin-bottom: 63px;
+    }
+    .modal {
+        &-picture {
+            width: 141px;
+            height: 141px;
+            background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/emir.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &-name {
+            font-size: 24px;
+        }
+        &-mail {
+            font-size: 14px;
+        }
+        &-valid {
+            font-size: 14px;
+            padding-left: 4px;
+        }
+    }
+}
