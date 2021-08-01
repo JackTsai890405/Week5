@@ -1,0 +1,18 @@
+body {
+    font-family: $font-family-base;
+    line-height: $font-family-base * 1.5;
+    color: $gray-900;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
