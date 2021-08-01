@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; }
+
+*,
+*::before,
+*::after {
+  /* 全域 border box > 不用算內距 */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+body {
+  font-family: "Lato", "Noto Sans", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "Helvetica Neue", Arial, sans-serif;
+  line-height: 24px; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1280px; }
+  .container .sidebarMenu {
+    background-color: #f8f9fa;
+    width: 20%; }
+    .container .sidebarMenu-title {
+      padding: 32px; }
+    .container .sidebarMenu-link {
+      padding-left: 32px;
+      color: #212529;
+      font-weight: bold; }
+      .container .sidebarMenu-link:hover {
+        color: #198754;
+        border-left: 4px solid #198754; }
+    .container .sidebarMenu-info {
+      padding-left: 32px;
+      padding-bottom: 32px; }
+    .container .sidebarMenu-avatar {
+      background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg);
+      background-position: center;
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%; }
+    .container .sidebarMenu-mail {
+      font-size: 14px;
+      line-height: 24px; }
+
+.assignment {
+  width: 80%;
+  padding: 32px; }
+  .assignment .header-subTitle {
+    font-size: 24px;
+    font-weight: bold; }
+  .assignment .header-notifications {
+    color: black; }
+  .assignment .header-search {
+    color: black; }
+  .assignment-comment {
+    font-size: 12px; }
+  .assignment-info {
+    width: 35%; }
+  .assignment-item {
+    border: 1px solid #ced4da; }
+  .assignment-text {
+    font-size: 12px; }
+  .assignment-detail {
+    width: 63%; }
+  .assignment-detailTitle {
+    border: 1px solid #ced4da; }
+  .assignment-detailItem {
+    border: 1px solid #ced4da; }
+  .assignment-avatar-woman {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/emilywang.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%; }
+  .assignment-avatar-man {
+    width: 40px;
+    height: 40px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%; }
+  .assignment-personalNote {
+    width: 88%; }
+  .assignment-file {
+    width: 40%;
+    border: 1px solid #ced4da; }
+  .assignment-arrowLeftAndRight {
+    margin-right: 234px; }
+  .assignment-button {
+    border: 1px solid #198754;
+    padding: 32px; }
+
+.admin {
+  width: 80%;
+  padding: 32px; }
+  .admin .header-subTitle {
+    font-size: 24px;
+    font-weight: bold; }
+  .admin .header-notifications {
+    color: black; }
+  .admin .header-search {
+    color: black; }
+  .admin table {
+    margin-bottom: 63px; }
+  .admin .modal-picture {
+    width: 141px;
+    height: 141px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/emir.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .admin .modal-name {
+    font-size: 24px; }
+  .admin .modal-mail {
+    font-size: 14px; }
+  .admin .modal-valid {
+    font-size: 14px;
+    padding-left: 4px; }
+
+/*# sourceMappingURL=all.css.map */
