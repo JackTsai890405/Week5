@@ -161,8 +161,7 @@ a:hover {
       padding-left: 32px;
       color: #212529;
       font-weight: bold; }
-      .container .sidebarMenu-link:hover {
-        color: #198754;
+      .container .sidebarMenu-link:active {
         border-left: 4px solid #198754; }
     .container .sidebarMenu-info {
       padding-left: 32px;
