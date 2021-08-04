@@ -230,40 +230,45 @@ current: index
         </ul>
     </nav>
 
-    <!-- Modal -->
+    <!-- Watch Profile Info Modal -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
-                <div class="modal-body d-flex justify-content-between">
-                    <div class="d-flex">
-                        <div class="modal-picture me-4"></div>
-                        <ul class="modal-info">
-                            <li class="mb-2">#1</li>
-                            <li>Admin</li>
-                            <li class=" modal-name mb-2">Emir Wicks</li>
-                            <li class="modal-mail mb-2">emir.wicks@mail.com</li>
-                            <li class="modal-valid">verified</li>
-                        </ul>
-                    </div>
+                <div class="modal-body d-flex flex-column">
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex">
+                            <div class="modal-picture me-4"></div>
+                            <ul class="modal-info">
+                                <li class="mb-2">#1</li>
+                                <li>Admin</li>
+                                <li class=" modal-name mb-2">Emir Wicks</li>
+                                <li class="modal-mail mb-2">emir.wicks@mail.com</li>
+                                <li class="modal-valid">verified</li>
+                            </ul>
+                        </div>
 
-                    <div class="d-flex flex-column justify-content-between">
+                        <div class="d-flex flex-column justify-content-between">
 
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 
-                        <!-- Collapse -->
-                        <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                            aria-controls="collapseExample">
-                            <span class="material-icons">
-                                expand_more
-                            </span>
-                        </a>
-                    </div>
-                    <!-- Collapse Show -->
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body">
-                            Test...
+                            <!-- Collapse -->
+                            <a data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <span class="material-icons">
+                                    expand_more
+                                </span>
+                            </a>
                         </div>
                     </div>
+                    <div class="d-flex justify-content-end mt-4">
+                        <!-- Collapse Show -->
+                        <div class="collapse" id="collapseExample">
+                            <button type="button" class="btn btn-outline-danger"
+                                data-bs-dismiss="modal">Deactivate</button>
+                            <button type="button" class="btn btn-success">Edit</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
