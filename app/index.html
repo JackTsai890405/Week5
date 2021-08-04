@@ -56,7 +56,7 @@ current: index
         <p class="assignment-comment">2 comments</p>
     </section>
 
-    <section class="d-flex justify-content-between mb-3">
+    <section class="d-flex justify-content-between mb-3 ">
         <ul class="assignment-info list-unstyled">
             <li class="assignment-item px-2 py-2">
                 <div class="d-flex justify-content-between mb-1">
@@ -100,7 +100,7 @@ current: index
                 </div>
             </li>
         </ul>
-        <div class="assignment-detail">
+        <div class="assignment-detail position-relative">
             <div class="assignment-detailTitle d-flex justify-content-between py-2 px-3">
                 <div>
                     <p class="assignment-text">Chapter Assignment 2 / HTML&CSS</p>
@@ -168,7 +168,65 @@ current: index
                     </div>
                 </li>
             </ul>
+            <!-- 折疊 -->
+            <div class="collapse" id="collapseCommentExample">
+                <div class="card position-absolute bottom-0 end-0 w-100">
+                    <div class="card-header d-flex align-items-center">
+                        <div class="dropdown me-4">
+                            <a class="dropdown-toggle text-dark" href="#" role="button" id="bodyTextLink"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Body Text
+                            </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="bodyTextLink">
+                                <li><a class="dropdown-item" href="#">Body</a></li>
+                                <li><a class="dropdown-item" href="#">Text</a></li>
+                            </ul>
+                        </div>
+                        <span class="material-icons me-4">
+                            format_bold
+                        </span>
+                        <span class="material-icons me-4">
+                            format_italic
+                        </span>
+                        <span class="material-icons me-4">
+                            format_list_bulleted
+                        </span>
+
+                        <span class="material-icons me-4">
+                            format_list_numbered
+                        </span>
+
+                        <span class="material-icons me-4">
+                            image
+                        </span>
+                        <span class="material-icons me-4">
+                            attachment
+                        </span>
+
+                        <span class="material-icons">
+                            code
+                        </span>
+                    </div>
+                    <div class="card-body d-flex flex-column">
+                        <textarea class="d-block w-100 mb-3 border-0" name="comment" id="comment" cols="30" rows="10 "
+                            placeholder="Reply an answer…"></textarea>
+
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-outline-success btn-lg me-4">Cancel</button>
+
+                            <button type="button" class="btn btn-success btn-lg">Reply</button>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
         </div>
+
     </section>
 
     <section class="d-flex justify-content-end align-items-center
@@ -184,23 +242,12 @@ current: index
         <div class="d-flex">
             <a href="#" class="assignment-button me-3 py-2 text-success d-block">Mark as read</a>
 
-            <a href="#collapseExample" class="assignment-button py-2 text-white bg-success d-block"
+            <a href="#collapseCommentExample" class="assignment-button py-2 text-white bg-success d-block"
                 data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
                 aria-controls="collapseExample">
                 Reply
             </a>
-            <!-- 折疊 -->
-            <div class="collapse" id="collapseExample">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
+
         </div>
     </section>
 
