@@ -158,14 +158,18 @@ a:hover {
     .container .sidebarMenu-title {
       padding: 32px; }
     .container .sidebarMenu-link {
-      padding-left: 32px;
       color: #212529;
-      font-weight: bold; }
-      .container .sidebarMenu-link:active {
+      font-weight: bold;
+      padding-left: 32px; }
+      .container .sidebarMenu-link:hover {
         border-left: 4px solid #198754; }
+    .container .sidebarMenu-list {
+      background-color: #f8f9fa; }
     .container .sidebarMenu-info {
       padding-left: 32px;
       padding-bottom: 32px; }
+    .container .sidebarMenu-card {
+      background-color: #f8f9fa; }
     .container .sidebarMenu-avatar {
       background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg);
       background-position: center;
@@ -187,6 +191,8 @@ a:hover {
     color: black; }
   .assignment .header-search {
     color: black; }
+  .assignment .list-group-item {
+    padding: 12px; }
   .assignment-comment {
     font-size: 12px; }
   .assignment-info {
@@ -254,5 +260,9 @@ a:hover {
   .admin .modal-valid {
     font-size: 14px;
     padding-left: 4px; }
+  .admin .addNewAdminModal-subtitle {
+    font-size: 1.25rem; }
+  .admin .editAdmin-subtitle {
+    font-size: 1.25rem; }
 
 /*# sourceMappingURL=all.css.map */
