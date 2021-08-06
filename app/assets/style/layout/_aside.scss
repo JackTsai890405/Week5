@@ -7,17 +7,22 @@
             padding: 32px;
         }
         &-link {
-            padding-left: 32px;
             color: #212529;
             font-weight: bold;
-
-            &:active {
+            padding-left: 32px;
+            &:hover {
                 border-left: 4px solid #198754;
             }
+        }
+        &-list {
+            background-color: #f8f9fa;
         }
         &-info {
             padding-left: 32px;
             padding-bottom: 32px;
+        }
+        &-card {
+            background-color: #f8f9fa;
         }
         &-avatar {
             background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg);

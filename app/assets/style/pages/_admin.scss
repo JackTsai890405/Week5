@@ -37,4 +37,15 @@
             padding-left: 4px;
         }
     }
+    .addNewAdminModal {
+        &-subtitle {
+            font-size: 1.25rem;
+        }
+    }
+
+    .editAdmin {
+        &-subtitle {
+            font-size: 1.25rem;
+        }
+    }
 }
