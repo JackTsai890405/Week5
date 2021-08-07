@@ -1,10 +1,22 @@
 .container {
-    max-width: 1280px;
     .sidebarMenu {
         background-color: #f8f9fa;
         width: 20%;
+        min-height: 100vh;
         &-title {
             padding: 32px;
+            a {
+                display: block;
+                background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg);
+                width: 151px;
+                height: 40px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                white-space: nowrap; /* 規定段落中的文字不得進行換行 */
+                text-indent: 101%; /* 強迫文字縮排至原本的區域外 */
+                overflow: hidden; /* 將超出範圍的內容隱藏 */
+            }
         }
         &-link {
             color: #212529;
@@ -12,6 +24,8 @@
             padding-left: 32px;
             &:hover {
                 border-left: 4px solid #198754;
+
+                color: green;
             }
         }
         &-list {
