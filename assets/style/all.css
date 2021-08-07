@@ -150,36 +150,50 @@ a:hover {
   -webkit-box-shadow: 3px 3px 5px gray;
           box-shadow: 3px 3px 5px gray; }
 
-.container {
-  max-width: 1280px; }
-  .container .sidebarMenu {
-    background-color: #f8f9fa;
-    width: 20%; }
-    .container .sidebarMenu-title {
-      padding: 32px; }
-    .container .sidebarMenu-link {
-      color: #212529;
-      font-weight: bold;
-      padding-left: 32px; }
-      .container .sidebarMenu-link:hover {
-        border-left: 4px solid #198754; }
-    .container .sidebarMenu-list {
-      background-color: #f8f9fa; }
-    .container .sidebarMenu-info {
-      padding-left: 32px;
-      padding-bottom: 32px; }
-    .container .sidebarMenu-card {
-      background-color: #f8f9fa; }
-    .container .sidebarMenu-avatar {
-      background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg);
+.container .sidebarMenu {
+  background-color: #f8f9fa;
+  width: 20%;
+  min-height: 100vh; }
+  .container .sidebarMenu-title {
+    padding: 32px; }
+    .container .sidebarMenu-title a {
+      display: block;
+      background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg);
+      width: 151px;
+      height: 40px;
       background-position: center;
       background-size: cover;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%; }
-    .container .sidebarMenu-mail {
-      font-size: 14px;
-      line-height: 24px; }
+      background-repeat: no-repeat;
+      white-space: nowrap;
+      /* 規定段落中的文字不得進行換行 */
+      text-indent: 101%;
+      /* 強迫文字縮排至原本的區域外 */
+      overflow: hidden;
+      /* 將超出範圍的內容隱藏 */ }
+  .container .sidebarMenu-link {
+    color: #212529;
+    font-weight: bold;
+    padding-left: 32px; }
+    .container .sidebarMenu-link:hover {
+      border-left: 4px solid #198754;
+      color: green; }
+  .container .sidebarMenu-list {
+    background-color: #f8f9fa; }
+  .container .sidebarMenu-info {
+    padding-left: 32px;
+    padding-bottom: 32px; }
+  .container .sidebarMenu-card {
+    background-color: #f8f9fa; }
+  .container .sidebarMenu-avatar {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/andychen.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; }
+  .container .sidebarMenu-mail {
+    font-size: 14px;
+    line-height: 24px; }
 
 .assignment {
   width: 80%;
@@ -228,8 +242,6 @@ a:hover {
   .assignment-file {
     width: 40%;
     border: 1px solid #ced4da; }
-  .assignment-arrowLeftAndRight {
-    margin-right: 234px; }
   .assignment-button {
     border: 1px solid #198754;
     padding: 32px; }
